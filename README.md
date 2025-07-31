@@ -28,11 +28,12 @@ This project uses **semantic similarity** to match resumes with job descriptions
 
 resume_job_matcher/
 ├── Resume/
-│ ├── resumes.csv
-│ ├── jobs.csv
+│   ├── resumes.csv
+│   └── jobs.csv
 ├── HR_Screening.ipynb
 ├── README.md
 └── requirements.txt
+
 
 ---
 
@@ -43,19 +44,21 @@ resume_job_matcher/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/resume-job-matcher.git
-cd resume_job_matcher
-
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+   git clone https://github.com/syedaraheen/Resume_Job_Matcher.git
+   cd resume_job_matcher
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+```
 📊 Usage
 1. Prepare your dataset
 ## 📂 Dataset
 
 This project uses the **Resume and Job Description Matching** dataset available on Kaggle:
+## 📂 Dataset  
+🔗 **Resume and Job Description Dataset – by Pranav Venugopal**  
+[https://www.kaggle.com/datasets/pranavvenugo/resume-and-job-description](https://www.kaggle.com/datasets/pranavvenugo/resume-and-job-description)
 
-🔗 [Resume and Job Description Dataset – by Pranav Venugopal](https://www.kaggle.com/datasets/pranavvenugo/resume-and-job-description)
 
 Please download the dataset manually from the link above and place it in the `Resume/` directory:
 
@@ -74,4 +77,5 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 👨‍💻 Author
 Raheen Bukhari
 📫 raheenbukhari.01@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/)
+🔗 LinkedIn: [https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/](https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/)
+
