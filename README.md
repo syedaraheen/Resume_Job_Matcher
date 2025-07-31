@@ -26,6 +26,7 @@ This project uses **semantic similarity** to match resumes with job descriptions
 
 ## 📁 Project Structure
 
+```text
 resume_job_matcher/
 ├── Resume/
 │   ├── resumes.csv
@@ -33,6 +34,7 @@ resume_job_matcher/
 ├── HR_Screening.ipynb
 ├── README.md
 └── requirements.txt
+```
 
 
 ---
@@ -52,7 +54,6 @@ resume_job_matcher/
 ```
 📊 Usage
 1. Prepare your dataset
-## 📂 Dataset
 
 This project uses the **Resume and Job Description Matching** dataset available on Kaggle:
 ## 📂 Dataset  
@@ -64,18 +65,25 @@ Please download the dataset manually from the link above and place it in the `Re
 
 ## 🚀 How to Use
 
-2. Open the Jupyter Notebook:
+1. Open the Jupyter Notebook:  
    - `HR_Screening.ipynb`
 
-3. Run the notebook cells step-by-step to:
-   - Load resume and job datasets
-   - Compute similarity scores
-   - Rank job descriptions per resume
-   - Visualize the results
-🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
-👨‍💻 Author
-Raheen Bukhari
-📫 raheenbukhari.01@gmail.com
-🔗 LinkedIn: [https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/](https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/)
+2. Run the notebook cells step-by-step to:
+   - Load resume and job datasets  
+   - Compute similarity scores  
+   - Rank job descriptions per resume  
+   - Visualize the results  
 
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+---
+
+## 👨‍💻 Author
+
+**Raheen Bukhari**  
+📫 Email: raheenbukhari.01@gmail.com  
+🔗 LinkedIn: [https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/](https://www.linkedin.com/in/syeda-raheen-bukhari-5366aa2b2/)
